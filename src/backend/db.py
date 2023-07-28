@@ -2,7 +2,7 @@ import oracledb
 
 connection = oracledb.connect(
     user="SYSTEM",
-    password='kauanteste',
+    password='yourpassword',
     dsn="localhost/xe")
 
 print("Conectado com sucesso!")
